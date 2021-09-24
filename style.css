@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  background-color: #ffe135;
+  height: 100px;
+  padding: 25px;
+}
+
+.input-div {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#btn-translate {
+  text-align: center;
+}
+
+.output-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.output-block button {
+  background-color: #ffe135;
+  border: none;
+  padding: 15px 25px;
+}
+
+#output {
+  border: 2px solid #ffe135;
+  margin-top: 20px;
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  padding: 10px;
+}
